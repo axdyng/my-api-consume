@@ -34,3 +34,8 @@ body {
   font-size: 1.4em;
   font-family: 'Sail', cursive;
 }
+
+input[type="button"].button-primary {
+  background-color: transparent;
+  border-color: black;
+}

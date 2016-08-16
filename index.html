@@ -5,6 +5,7 @@
     <title>About Me</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Sail" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Skeleton -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
@@ -16,19 +17,32 @@
   </head>
   <body>
 
-      <div class="row content">
-        <img class="profileURL" />
-
-        <div class="info">
-          <h1>Name: </h1><p class="name"></p>
-          <h1>Profession: </h1><p class="profession"></p>
-
-          <h2>Favourite quote: </h2>
-          <input class="button button-primary quote-btn" type="button" value="Show">
-          <p class="quote"></p>
+    <div class="row content">
+      <div class="nine columns social-links">
+        <!-- Social links -->
+        <div class="link">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
         </div>
-
+        <div class="link">
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-2x"></i></a>
+        </div>
+        <div class="link">
+          <a href="https://github.com/"><i class="fa fa-git fa-2x"></i></a>
+        </div>
       </div>
+
+      <!-- AJAX content -->
+      <img class="profileURL" src="" />
+
+      <div class="info">
+        <h1>Name: </h1><p class="name"></p>
+        <h1>Profession: </h1><p class="profession"></p>
+
+        <h2>Favourite quote: </h2>
+        <input class="button button-primary quote-btn" type="button" value="Show">
+        <p class="quote"></p>
+      </div>
+    </div>
 
   </body>
 </html>

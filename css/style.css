@@ -1,0 +1,36 @@
+/*@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');*/
+
+body {
+  font-family: 'Lobster Two', cursive;
+  /*background-color: #CD001A;*/
+  background-image: url('https://cdn-images.xda-developers.com/direct/2/3/6/7/4/0/8/Pokedex2.jpg');
+  background-size: cover;
+}
+
+.content {
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: right;
+}
+
+.profileURL {
+  border-radius: 50px;
+  width: 20%;
+}
+
+.info {
+  margin-top: 35px;
+}
+
+.info > h1 {
+  font-size: 2.8em;
+}
+
+.info > h2 {
+  font-size: 2.3em;
+}
+
+.info > p {
+  font-size: 1.4em;
+  font-family: 'Sail', cursive;
+}
